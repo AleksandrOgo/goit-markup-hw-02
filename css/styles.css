@@ -1,40 +1,40 @@
 body {
-font-family: Roboto, sans-serif;
-font-family: Raleway, sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 800;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 color: #E5E5E5;
 text-align: center;
-
 }
-
 .logo {
 font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1,33;
+line-height: 1.33;
 color: #4D5AE5;
 text-transform: uppercase;
 }
 .logo-studio {
 font-weight: 800;
 font-size: 18px;
-line-height: 1,33;
+line-height: 1.33;
 color: #2E2F42;
 text-transform: uppercase;
 }
 .logo-footer {
 font-weight: 800;
 font-size: 18px;
-line-height: 1,33;
+line-height: 1.33;
 color: #F4F4FD;
 text-transform: uppercase;
 }
 .link {
 text-decoration: none;
 color: #2E2F42;
+}
+.link: focus {
+color; #4D5AE5;
 }
 .link:hover {
 color: #404BBF
@@ -43,7 +43,7 @@ color: #404BBF
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 color: #2E2F42;
 text-align: left;
 }
@@ -51,7 +51,7 @@ text-align: left;
 font-family: Roboto, sans-serif;
 font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 color: #434455;
 text-decoration: none;
 font-style: normal;
@@ -65,8 +65,8 @@ text-align: left;
 .button-order-service {
 font-family: Roboto, sans-serif;
 font-weight: 500;
-font: size: 16px;
-line-height: 1,5;
+font-size: 16px;
+line-height: 1.5;
 color: #FFFFFF;
 background-color: #4D5AE5;
 cursor: pointer;
@@ -74,11 +74,14 @@ cursor: pointer;
 .button-order-service:hover {
 background-color: #404BBF;
 }
+.button-order-service:focus {
+color: #4D5AE5;
+}
 .main-title {
 font-family: Roboto, sans-serif;
 font-weight: 700;
 font-size: 56px;
-line-height: 1,07;
+line-height: 1.07;
 color: #FFFFFF;
 }
 .section-one {
@@ -87,22 +90,23 @@ text-align: left;
 .section-name {
 font-family: Roboto, sans-serif;
 font-weight: 500;
-font: size: 20px;
-line-height: 1,2;
+font-size: 20px;
+line-height: 1.2;
 color: #2E2F42;
+letter-spacing: 0.02em;
 }
 .section-text {
 font-family: Roboto, sans-serif;
-font-weight: 500;
-font: size: 20px;
-line-height: 1;
+font-size: 16px;
+line-height: 1.5;
 color: #2E2F42;
+letter-spacing: 0.02em;
 }
 .section-title {
 font-family: Roboto, sans-serif;
 font-weight: 700;
-font: size: 36px;
-line-height: 1,11;
+font-size: 36px;
+line-height: 1.2;
 color: #2E2F42;
 }
 .footer {
@@ -110,7 +114,7 @@ background-color: #2E2F42;
 text-align: left;
 }
 .footer-text {
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sens serif;
 font-weight: 400;
 font: size: 16px;
 line-height: 1,5;
