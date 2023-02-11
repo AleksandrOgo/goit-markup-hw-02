@@ -29,9 +29,9 @@ text-transform: uppercase;
 }
 .logo-studio {
 color: var(--color-dark);
+font-weight: 800;
 }
 .logo-footer {
-font-weight: 800;
 font-size: var(--font-size-18);
 line-height: 1.33;
 color: var(--color-light);
@@ -39,9 +39,10 @@ text-transform: uppercase;
 }
 .link {
 color: var(--color-dark);
+text-decoration: none;
 }
-.link: focus {
-color: var(--color-blue);
+.link:focus {
+background-color: var(--color-blue);
 }
 .link:hover {
 color: var(--color-blue-light)
@@ -62,20 +63,32 @@ text-align: left;
 }
 .hero {
 background-color: var(--color-dark);
-text-align: left;
+text-align: center;
 }
 .button-order-service {
+background-color: var(--color-blue);
+color: var(--color-white);
 font-size: var(--font-size-16);
 line-height: 1.5;
-color: var(--color-white);
-background-color: var(--color-blue);
 cursor: pointer;
+text-align: center;
 }
 .button-order-service:hover {
 background-color: var(--color-blue-light);
 }
 .button-order-service:focus {
 color: var(--color-blue);
+}
+.button-portfolio-navi {
+color: var(--color-blue);
+font-size: var(--font-size-16);
+line-height: 1.5;
+cursor: pointer;
+text-align: center;
+}
+.button-portfolio-navi:hover {
+background-color: var(--color-blue);
+color: var(--color-white);
 }
 .main-title {
 font-weight: 700;
@@ -111,7 +124,7 @@ text-align: left;
 .footer-text {
 font-family: 'Roboto', sens serif;
 font-weight: 400;
-font: size: var(--font-size-16);
+font-size: var(--font-size-16);
 line-height: 1.5;
 color: var(--color-white-dark);
 text-transform: uppercase;
