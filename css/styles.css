@@ -99,7 +99,7 @@ color: var(--color-blue);
 font-size: var(--font-size-16);
 line-height: 1.5;
 cursor: pointer;
-text-align: center;
+margin: 0 auto;
 }
 .button-portfolio-navi:hover {
 background-color: var(--color-blue);
