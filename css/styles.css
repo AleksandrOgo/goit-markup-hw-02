@@ -12,12 +12,9 @@
 }
 body {
 font-family: 'Roboto', sans-serif;
-font-weight: 500;
 font-size: var(--font-size-16);
 line-height: 1.5;
 color: var(--color-gray-light);
-text-align: center;
-text-decoration: none;
 }
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -51,8 +48,12 @@ text-decoration: none;
 color: var(--color-blue);
 }
 .link-nav {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 text-decoration: none;
-color: var(--color-dark)
+color: var(--color-dark);
 }
 .link-nav:focus {
 color: var(--color-blue);
@@ -65,7 +66,6 @@ color: var(--color-blue-light)
 font-size: var(--font-size-16);
 line-height: 1.5;
 color: var(--color-dark);
-text-align: left;
 }
 .address {
 font-size: var(--font-size-16);
